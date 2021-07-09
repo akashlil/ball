@@ -1,0 +1,41 @@
+img {
+  width: 30%;
+}
+
+.flider {
+  border: 7px solid rebeccapurple;
+}
+
+.ball {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: red;
+  position: relative;
+  left: 550px;
+}
+
+.flider:hover .bat {
+  transform: rotate(-60deg);
+  transform-origin: top right;
+}
+
+.flider:hover .ball {
+  transform: translate(700px, -200px);
+}
+
+.ball {
+  transition: transform 1s ease-out 0.1s;
+}
+
+.flider:hover .ballerman {
+  transform: translate(-85px);
+}
+
+.ballerman {
+  width: 21%;
+  position: relative;
+  left: 750px;
+  top: 30px;
+  transition: transform 0.5s ease-in 0.1s;
+}
